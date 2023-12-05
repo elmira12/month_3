@@ -10,7 +10,7 @@ rend = random.randint(1,3)
 @dp.message_handler(commands='start')
 async def start(message:types.Message):
     await message.answer("Я загадал число от 1 до 3")
-#     await message.answer_photo("")
+
 
 @dp.message_handler()
 async def num(message:types.Message):
